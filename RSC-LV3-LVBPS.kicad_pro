@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RSC_LV3_LVBPS.kicad_pro",
+    "filename": "RSC-LV3-LVBPS.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -491,14 +491,13 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -506,10 +505,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -627,12 +630,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "RSC_LV3_LVBPS.kicad_sch",
-        "name": "Root",
+        "filename": "RSC-LV3-LVBPS.kicad_sch",
+        "name": "RSC-LV3-LVBPS",
         "uuid": "4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
       }
     ],
-    "used_designators": "L2,D7-18,D22-23,#PWR28-63,C12-27,F2,R18-29,R41-42,J3-5,J16,U4-6,S4,Q1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

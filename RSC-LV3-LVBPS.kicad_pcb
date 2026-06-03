@@ -722,7 +722,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/26794fd8-b477-4b28-9b95-56697ca49c97")
 		(sheetname "/")
-		(sheetfile "RSC_LV3_LVBPS.kicad_sch")
+		(sheetfile "RSC-LV3-BPS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3561,7 +3561,7 @@
 		)
 		(path "/02aec4e6-4131-4d79-9c88-2ff7f04e39ce")
 		(sheetname "/")
-		(sheetfile "RSC_LV3_LVBPS.kicad_sch")
+		(sheetfile "RSC-LV3-BPS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4842,7 +4842,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/409e38c9-5f53-43fd-b4ea-3e5a385433d7")
 		(sheetname "/")
-		(sheetfile "RSC_LV3_LVBPS.kicad_sch")
+		(sheetfile "RSC-LV3-BPS.kicad_sch")
 		(units
 			(unit
 				(name "A")

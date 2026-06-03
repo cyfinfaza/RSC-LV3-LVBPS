@@ -1744,7 +1744,7 @@
 			(uuid "e57ae2e5-52c4-40f2-8d44-6b612ed1a5f2")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "D23")
 					(unit 1)
@@ -1830,7 +1830,7 @@
 			(uuid "f827bca6-482a-4c93-b6db-fc54d97b8d30")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "R29")
 					(unit 1)
@@ -1921,7 +1921,7 @@
 			(uuid "9dfcc823-4252-42dd-abc4-d45a2a6fd61b")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "K3")
 					(unit 1)
@@ -2005,7 +2005,7 @@
 			(uuid "c4cbebbf-4a32-4812-b61d-ba5e55d88679")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "D17")
 					(unit 1)
@@ -2087,7 +2087,7 @@
 			(uuid "d2102d83-8f9a-48ca-a2b7-58614d162063")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "#PWR054")
 					(unit 1)
@@ -2169,7 +2169,7 @@
 			(uuid "e50a3dd3-cefb-4fb4-a8f6-c31d5f1d497d")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "#PWR052")
 					(unit 1)
@@ -2253,7 +2253,7 @@
 			(uuid "3b6886da-e071-4379-89d3-03f7f499a398")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "R42")
 					(unit 1)
@@ -2345,7 +2345,7 @@
 			(uuid "13542039-674f-4152-89e7-adb46dd92c29")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "Q2")
 					(unit 1)

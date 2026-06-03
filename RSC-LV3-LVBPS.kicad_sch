@@ -1217,7 +1217,7 @@
 			(uuid "4d13d513-23ef-406b-b95d-1b168d59b18b")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "SW1")
 					(unit 1)
@@ -1299,7 +1299,7 @@
 			(uuid "3ff5124e-d50d-4fef-8e85-88f0aab27761")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "F1")
 					(unit 1)
@@ -1379,7 +1379,7 @@
 			(uuid "08ba6888-1cf3-4469-b4c0-eb72ee84dac6")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "#PWR03")
 					(unit 1)
@@ -1459,7 +1459,7 @@
 			(uuid "84d3c72b-9f8f-4c33-9432-9db3742a2ecb")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "J5")
 					(unit 1)
@@ -1539,7 +1539,7 @@
 			(uuid "ef7d5e97-4c66-4bd5-a865-4fcad5cca9bb")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "#PWR01")
 					(unit 1)
@@ -1617,7 +1617,7 @@
 			(uuid "eea7adce-c6cf-4c76-8d5f-816b7302242a")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "#PWR063")
 					(unit 1)
@@ -1697,7 +1697,7 @@
 			(uuid "8f0bc011-4d2b-44d3-97c0-817d65b9aa8c")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "#PWR02")
 					(unit 1)
@@ -1778,7 +1778,7 @@
 			(uuid "1f16c61d-d906-4282-b7d0-a9369cc92228")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(reference "#PWR04")
 					(unit 1)
@@ -1846,7 +1846,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "8")
 				)
@@ -1892,7 +1892,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "9")
 				)
@@ -1938,7 +1938,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "12")
 				)
@@ -2005,7 +2005,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "7")
 				)
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "6")
 				)
@@ -2149,7 +2149,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "5")
 				)
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "4")
 				)
@@ -2303,7 +2303,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "3")
 				)
@@ -2380,7 +2380,7 @@
 			)
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
 					(page "2")
 				)

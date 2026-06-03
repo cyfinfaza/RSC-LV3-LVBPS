@@ -769,7 +769,7 @@
 			(uuid "5863731e-6f95-4ba3-8514-612700f1aa9e")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
 					(reference "R16")
 					(unit 1)
@@ -857,7 +857,7 @@
 			(uuid "fd27d3d8-e985-4316-96fa-409e682cdba9")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
 					(reference "C11")
 					(unit 1)
@@ -948,7 +948,7 @@
 			(uuid "9261c16b-7195-41ef-bbc4-507b23b58e31")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
 					(reference "D6")
 					(unit 1)
@@ -1035,7 +1035,7 @@
 			(uuid "76ec81a8-59a4-432d-88ea-b8785b742bf5")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
 					(reference "#PWR025")
 					(unit 1)
@@ -1126,7 +1126,7 @@
 			(uuid "bad8d000-e43c-4ace-85e9-4c3199e4884f")
 		)
 		(instances
-			(project "RSC_LV3_LVBPS"
+			(project "RSC-LV3-BPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
 					(reference "R17")
 					(unit 1)
