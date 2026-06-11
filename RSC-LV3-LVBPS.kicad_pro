@@ -491,13 +491,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -635,13 +636,13 @@
         "uuid": "4bbf2fff-9f66-421d-84bf-68d1dcd1e11d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U7,J6,R30-31,D16,D18-20,#PWR64-66,SW2,K2,K4,C28",
     "variants": []
   },
   "sheets": [
     [
       "4bbf2fff-9f66-421d-84bf-68d1dcd1e11d",
-      "Root"
+      "RSC-LV3-LVBPS"
     ],
     [
       "df7bcb64-4221-4af7-8ca5-3f00264c9667",
@@ -686,6 +687,10 @@
     [
       "7163d647-ae4e-492e-a05d-dd78608c20a5",
       "Power and Interfaces"
+    ],
+    [
+      "9a0a496f-39db-441a-9686-17b43a03a46f",
+      "Precharge"
     ],
     [
       "aa39c3ff-c1bc-401e-97d6-56f59764a03f",

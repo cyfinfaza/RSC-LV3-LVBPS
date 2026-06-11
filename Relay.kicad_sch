@@ -512,14 +512,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPST-NO"
+		(symbol "Relay:SANYOU_SRD_Form_A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "K"
-				(at 11.43 3.81 0)
+				(at 8.89 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -529,8 +529,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPST-NO"
-				(at 11.43 1.27 0)
+			(property "Value" "SANYOU_SRD_Form_A"
+				(at 8.89 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -540,8 +540,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 11.43 -1.27 0)
+			(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+				(at 8.89 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -552,7 +552,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -563,7 +563,7 @@
 					)
 				)
 			)
-			(property "Description" "Relay SPST, normally open, EN50005"
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -574,7 +574,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+			(property "ki_keywords" "Single Pole Relay SPST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -585,7 +585,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPST*"
+			(property "ki_fp_filters" "Relay*SPST*SANYOU*SRD*Series*Form*A*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -596,10 +596,10 @@
 					)
 				)
 			)
-			(symbol "Relay_SPST-NO_0_0"
+			(symbol "SANYOU_SRD_Form_A_0_0"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy 5.08 5.08) (xy 5.08 2.54) (xy 4.445 3.175) (xy 5.08 3.81)
 					)
 					(stroke
 						(width 0)
@@ -610,10 +610,10 @@
 					)
 				)
 			)
-			(symbol "Relay_SPST-NO_0_1"
+			(symbol "SANYOU_SRD_Form_A_0_1"
 				(rectangle
 					(start -10.16 5.08)
-					(end 10.16 -5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(symbol "Relay_SPST-NO_1_1"
+			(symbol "SANYOU_SRD_Form_A_1_1"
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
@@ -765,43 +765,7 @@
 							)
 						)
 					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -819,7 +783,43 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1401,16 +1401,16 @@
 		)
 	)
 	(junction
+		(at 139.7 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "152d1c34-9d34-4398-b724-19bd456ef670")
+	)
+	(junction
 		(at 110.49 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26df1164-ab4f-4bf5-b4fd-06bb7d528c46")
-	)
-	(junction
-		(at 154.94 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b569215-5ca3-498e-860c-4d5405ebc527")
 	)
 	(junction
 		(at 121.92 124.46)
@@ -1425,16 +1425,16 @@
 		(uuid "576a937a-8464-4ac6-a1ea-d6907920d5f8")
 	)
 	(junction
+		(at 154.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ff2b9b-7adc-414a-98f2-1857a48a5026")
+	)
+	(junction
 		(at 110.49 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7df5072-6873-4fc5-b118-6ad1430b05fe")
-	)
-	(junction
-		(at 139.7 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff1191bb-f7ae-4322-87bf-34eb46822a36")
 	)
 	(wire
 		(pts
@@ -1650,7 +1650,7 @@
 	)
 	(hierarchical_label "SW1"
 		(shape passive)
-		(at 139.7 88.9 180)
+		(at 139.7 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1744,7 +1744,7 @@
 			(uuid "e57ae2e5-52c4-40f2-8d44-6b612ed1a5f2")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "D23")
 					(unit 1)
@@ -1830,104 +1830,13 @@
 			(uuid "f827bca6-482a-4c93-b6db-fc54d97b8d30")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "R29")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/df7bcb64-4221-4af7-8ca5-3f00264c9667"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 147.32 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "568e6c62-9c0c-4204-8e94-2316c43c9519")
-		(property "Reference" "K1"
-			(at 147.32 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 147.32 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
-			(at 148.59 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A2"
-			(uuid "694493a2-6380-4252-bab4-443fcb539040")
-		)
-		(pin "A1"
-			(uuid "37987f77-8f2c-4d56-8c37-a82b32c555e9")
-		)
-		(pin "14"
-			(uuid "6910b965-afa0-46ab-94b2-f344c4b72e2f")
-		)
-		(pin "13"
-			(uuid "9dfcc823-4252-42dd-abc4-d45a2a6fd61b")
-		)
-		(instances
-			(project "RSC-LV3-BPS"
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
-					(reference "K3")
-					(unit 1)
-				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/df7bcb64-4221-4af7-8ca5-3f00264c9667"
-					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1944,8 +1853,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4fdd9a2-e115-46ab-a63b-fa91ce95cfff")
-		(property "Reference" "D16"
+		(uuid "54bceb15-e0e9-4d9a-9a77-5b61da436339")
+		(property "Reference" "D18"
 			(at 147.6375 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1965,7 +1874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 147.32 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1999,19 +1908,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "528f41f2-7104-41be-ae1c-60e7945ae87f")
+			(uuid "d8d08b21-0d6f-45c8-9eca-72aa0e51929c")
 		)
 		(pin "2"
-			(uuid "c4cbebbf-4a32-4812-b61d-ba5e55d88679")
+			(uuid "7cd4c6ff-7491-48ef-86cc-dfccd502e541")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
-					(reference "D17")
+					(reference "D19")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/df7bcb64-4221-4af7-8ca5-3f00264c9667"
-					(reference "D16")
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_A")
+		(at 147.32 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65a5d7a7-90b6-46c5-9ffb-dc8333658ab0")
+		(property "Reference" "K2"
+			(at 147.32 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_A"
+			(at 147.32 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 147.32 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
+			(at 147.32 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "995c6a85-81b4-41d8-b673-eaf27da8c52d")
+		)
+		(pin "5"
+			(uuid "bd38502a-0332-4fe8-8b51-1ebb7c47d4cc")
+		)
+		(pin "1"
+			(uuid "723db1bc-ba7a-4a9f-9faf-53981fe16ebe")
+		)
+		(pin "2"
+			(uuid "796e8b9e-77f3-495a-806b-23aa7e3fe3e0")
+		)
+		(instances
+			(project "RSC-LV3-LVBPS"
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
+					(reference "K4")
+					(unit 1)
+				)
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/df7bcb64-4221-4af7-8ca5-3f00264c9667"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -2087,7 +2087,7 @@
 			(uuid "d2102d83-8f9a-48ca-a2b7-58614d162063")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "#PWR054")
 					(unit 1)
@@ -2169,7 +2169,7 @@
 			(uuid "e50a3dd3-cefb-4fb4-a8f6-c31d5f1d497d")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "#PWR052")
 					(unit 1)
@@ -2253,7 +2253,7 @@
 			(uuid "3b6886da-e071-4379-89d3-03f7f499a398")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "R42")
 					(unit 1)
@@ -2345,7 +2345,7 @@
 			(uuid "13542039-674f-4152-89e7-adb46dd92c29")
 		)
 		(instances
-			(project "RSC-LV3-BPS"
+			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
 					(reference "Q2")
 					(unit 1)
