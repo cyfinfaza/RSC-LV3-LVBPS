@@ -1347,7 +1347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2a5ea2-0e09-4032-88f8-f698317ca54b")
-		(property "Reference" "S4"
+		(property "Reference" "S5"
 			(at 213.36 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1482,7 +1482,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "S4")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -1500,7 +1500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa0af12-930f-4736-a3cb-a7266987433a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR069"
 			(at 153.67 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1560,7 +1560,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "#PWR050")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1578,7 +1578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd69d40-aba1-4d9d-bc9f-856f0a5faa92")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR067"
 			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1638,7 +1638,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "#PWR048")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1656,7 +1656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a19c62-bc72-4279-93fa-702aac44cd0a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR068"
 			(at 120.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1716,7 +1716,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "#PWR049")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1734,7 +1734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48844617-6372-48a8-b50e-946e490e2d5e")
-		(property "Reference" "C21"
+		(property "Reference" "C30"
 			(at 80.01 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,7 +1798,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "C21")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -1816,7 +1816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b10f9bb2-0657-48ac-ae02-92bfed637211")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 122.7933 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +1899,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1917,7 +1917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb56023f-f061-44e7-9fe8-405010a96023")
-		(property "Reference" "C22"
+		(property "Reference" "C31"
 			(at 144.78 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +1981,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "C22")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db167196-3abe-424b-acd1-8c66337c1b1d")
-		(property "Reference" "R27"
+		(property "Reference" "R39"
 			(at 182.88 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2061,7 +2061,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "R27")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2079,7 +2079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e3abb1-9c4c-48ee-8e17-eaff82c9834c")
-		(property "Reference" "C23"
+		(property "Reference" "C32"
 			(at 157.48 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,7 +2143,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5/aa39c3ff-c1bc-401e-97d6-56f59764a03f"
-					(reference "C23")
+					(reference "C32")
 					(unit 1)
 				)
 			)

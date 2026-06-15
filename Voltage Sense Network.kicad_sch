@@ -707,7 +707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471c3ca4-9575-438c-9a2d-01c7ff77af86")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 152.4 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -771,15 +771,15 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
 					(reference "R14")
 					(unit 1)
 				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -797,7 +797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8faf9030-0aaa-47ca-a97b-52b91e0b4264")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 135.89 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -859,15 +859,15 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
-					(reference "C11")
-					(unit 1)
-				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
 					(reference "C10")
 					(unit 1)
 				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
 					(reference "C9")
+					(unit 1)
+				)
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -886,7 +886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa42445c-dbad-40c0-9b93-d03ff14f6161")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 127 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -950,15 +950,15 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -977,7 +977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2384ae7-e6d4-47b5-aca9-953e8a1e3187")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 154.94 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1037,15 +1037,15 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1064,7 +1064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75b9a87-f67e-4f27-abaa-9c9962c57aad")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 152.4 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,15 +1128,15 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/1856a03c-7c06-4d7b-bc4d-561ad22da0a9"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
 					(reference "R15")
 					(unit 1)
 				)
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/89d250a3-47d9-4100-a7e9-bffe0c4542cf"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/a618e32b-dfbf-4cfb-b0df-a706c9a76794"
+					(reference "R9")
 					(unit 1)
 				)
 			)
