@@ -3488,7 +3488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Project_Library:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal_VerticalCompatible"
 			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3570,7 +3570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "Project_Library:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal_VerticalCompatible"
 			(at 148.59 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4785,7 +4785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Project_Library:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal_VerticalCompatible"
 			(at 207.01 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4945,7 +4945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Project_Library:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal_VerticalCompatible"
 			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
