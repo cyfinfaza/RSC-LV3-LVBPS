@@ -7641,7 +7641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08845af3-da5e-4472-aa3b-cb729db8f565")
-		(property "Reference" "D8"
+		(property "Reference" "D5"
 			(at 62.23 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,7 +7706,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/4b8add19-2d3e-4ee3-9fc6-a72eb5b6d291"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8409,7 +8409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33af7d51-3f45-4a64-a3b7-a65368efdf7f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR045"
 			(at 278.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8470,7 +8470,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/4b8add19-2d3e-4ee3-9fc6-a72eb5b6d291"
-					(reference "#PWR071")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e109a8-f583-46d4-ad65-d20a82c0c869")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 281.94 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +9055,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/4b8add19-2d3e-4ee3-9fc6-a72eb5b6d291"
-					(reference "J9")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10431,7 +10431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a418bcbd-f610-4dcf-bfd3-fffd2c39422a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR046"
 			(at 278.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10492,7 +10492,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/4b8add19-2d3e-4ee3-9fc6-a72eb5b6d291"
-					(reference "#PWR072")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11784,7 +11784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff749338-ce46-4b56-99b7-69a0f042efc7")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR044"
 			(at 267.97 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11845,7 +11845,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/4b8add19-2d3e-4ee3-9fc6-a72eb5b6d291"
-					(reference "#PWR070")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)

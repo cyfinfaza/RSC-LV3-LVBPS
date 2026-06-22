@@ -630,172 +630,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2030,12 +1864,6 @@
 		(uuid "24833507-4711-44d8-9597-456b67d8b2a3")
 	)
 	(junction
-		(at 227.33 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29b01100-5f42-41f6-97cd-b712f883ad0b")
-	)
-	(junction
 		(at 214.63 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2046,12 +1874,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a065fe1-d48e-4f4f-8438-efa04d6fc0f1")
-	)
-	(junction
-		(at 59.69 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f7c32d3-cb47-4092-b728-d074f6c96fc8")
 	)
 	(junction
 		(at 220.98 116.84)
@@ -2144,12 +1966,6 @@
 		(uuid "c1c8a0d9-1ef9-4a15-a87c-84a43915d665")
 	)
 	(junction
-		(at 240.03 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c49e567e-333b-48f2-876d-3218d9f24586")
-	)
-	(junction
 		(at 85.09 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2178,12 +1994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d80f0ad7-f6be-42e4-aaaa-7ce26fafd290")
-	)
-	(junction
-		(at 72.39 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4189faa-cebd-488a-9404-8ba466a69d27")
 	)
 	(junction
 		(at 93.98 114.3)
@@ -2241,16 +2051,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 133.35) (xy 59.69 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d04fdf-ff52-4642-93a8-77f80aa1f81b")
-	)
-	(wire
-		(pts
 			(xy 199.39 132.08) (xy 199.39 128.27)
 		)
 		(stroke
@@ -2268,16 +2068,6 @@
 			(type default)
 		)
 		(uuid "0fad1952-6854-405f-8220-1143b82cd89f")
-	)
-	(wire
-		(pts
-			(xy 59.69 125.73) (xy 55.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13db3e1a-9342-4a26-8cda-a941b7a5b650")
 	)
 	(wire
 		(pts
@@ -2351,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 138.43) (xy 240.03 138.43)
+			(xy 227.33 138.43) (xy 243.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2771,16 +2561,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 146.05) (xy 240.03 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b0f36a-fd63-4ae1-af0f-3c2c4908e2cc")
-	)
-	(wire
-		(pts
 			(xy 180.34 38.1) (xy 180.34 44.45)
 		)
 		(stroke
@@ -2881,16 +2661,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 138.43) (xy 243.84 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06328cf-9132-434d-8bf7-997eb077f7b4")
-	)
-	(wire
-		(pts
 			(xy 236.22 121.92) (xy 231.14 121.92)
 		)
 		(stroke
@@ -2961,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 59.69 125.73)
+			(xy 55.88 125.73) (xy 72.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3244,7 +3014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07fe00f6-cee0-4de4-b02a-f0addbd1deb8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 85.09 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3304,7 +3074,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3322,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d31455-24cc-4f75-9547-19520dd90808")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 41.91 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3382,7 +3152,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22349fc6-c5ab-4bd4-8917-d80dc1fe39f1")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 214.63 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3624,7 +3394,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27c50c77-4ec6-4812-bcf3-8241af99d7fb")
-		(property "Reference" "D17"
+		(property "Reference" "D12"
 			(at 254.3175 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,90 +3485,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 59.69 129.54 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30d24c4d-6eaa-4a15-9397-c0b54b13af02")
-		(property "Reference" "D11"
-			(at 57.15 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 57.15 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 59.69 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 59.69 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e437e59-7976-4def-a39a-bf874430504c")
-		)
-		(pin "2"
-			(uuid "71fc6dcd-f92a-440d-b577-96aee996037b")
-		)
-		(instances
-			(project "RSC-LV3-LVBPS"
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3816,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32bf2c76-cb33-48eb-91a5-7aaa56a3776a")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 257.81 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3563,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "340e9b59-72e6-432a-af45-f32a507c91a3")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 194.31 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3954,7 +3641,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4134,7 +3821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "473d2d53-ade8-4c3d-89bd-848d18c34c1a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 257.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4194,7 +3881,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4212,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5328b8af-a3f1-44e7-b20e-8ba31284e98e")
-		(property "Reference" "D19"
+		(property "Reference" "D14"
 			(at 254.3175 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +3972,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D19")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eff256a-0709-4ae4-bd1c-caaf353247c8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4514,7 +4201,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4778,88 +4465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 240.03 142.24 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bda81cb-d68a-477d-b3a3-1b137e3177ee")
-		(property "Reference" "D16"
-			(at 242.57 140.9699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 242.57 143.5099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 240.03 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 240.03 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5ebc429-a6a7-42e0-bfe1-2fffe21668f6")
-		)
-		(pin "2"
-			(uuid "e6e6692d-770b-4972-be24-b16077b3e39c")
-		)
-		(instances
-			(project "RSC-LV3-LVBPS"
-				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 220.98 120.65 0)
 		(unit 1)
@@ -5035,7 +4640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e077f2-9a88-46f1-b5d5-4e24e6b4bd0c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 85.09 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5095,7 +4700,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5113,7 +4718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8c76a3-c062-41fe-bfa9-48c0aeedbd4d")
-		(property "Reference" "D14"
+		(property "Reference" "D10"
 			(at 207.3275 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +4780,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D14")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5193,7 +4798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dedaec9-e4da-4efd-a5e6-578ad18b7329")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 267.97 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +4858,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5271,7 +4876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2e5f34-a75b-4d63-aeee-2b22ca77dd2a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 232.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5331,7 +4936,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a477a47-0b9d-4e1f-acc8-56f863222a22")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 233.68 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5491,7 +5096,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5509,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af19b0c-4c36-4bb8-8ab0-c01683f477ea")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 191.77 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5569,7 +5174,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "938ea2c2-1d84-449c-8530-3d12d9b919e8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 232.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5810,7 +5415,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5828,7 +5433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96325fad-a069-4d66-b9dd-9f5574aedb79")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 132.08 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5493,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5906,7 +5511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966cd05c-b282-4079-b063-f27caa09d72b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR053"
 			(at 177.8 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +5571,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6067,7 +5672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29680bf-891c-4518-9033-6d569a0f701a")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 63.8175 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6129,7 +5734,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6147,7 +5752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f5dc27-51ef-4d47-b73e-6ce066dc2c63")
-		(property "Reference" "D15"
+		(property "Reference" "D11"
 			(at 207.3275 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6209,7 +5814,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6227,7 +5832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55aa76d-bae8-41db-802a-0f22224ed5c9")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 164.465 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +5903,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6476,7 +6081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5390efc-dba4-49ec-b052-cfb9145d870b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 220.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6536,7 +6141,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6554,7 +6159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c3603a-c19d-475a-9ac8-5b60b21ae6d1")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 196.85 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6614,7 +6219,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6714,7 +6319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c36e774b-2b08-4974-81dc-a7c3e7833b20")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 180.34 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6774,7 +6379,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c83172de-8061-46cb-b1fc-a0b1140ab76f")
-		(property "Reference" "D18"
+		(property "Reference" "D13"
 			(at 254.3175 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6945,7 +6550,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D18")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7122,7 +6727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d26825-dfd7-4ca2-8447-07938ac2b7de")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 257.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7182,7 +6787,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7200,7 +6805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe747cdb-23d4-4df7-a63a-5a5d107edc06")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 141.605 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7271,7 +6876,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7289,7 +6894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe9b91f1-624b-4cd0-b280-f1735c3a7f2c")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 232.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7349,7 +6954,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7449,7 +7054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff69e96f-a854-4ed3-a108-1b467d7d65ee")
-		(property "Reference" "D13"
+		(property "Reference" "D9"
 			(at 207.3275 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +7116,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/7163d647-ae4e-492e-a05d-dd78608c20a5"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)

@@ -1746,7 +1746,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/df7bcb64-4221-4af7-8ca5-3f00264c9667"
@@ -1916,7 +1916,7 @@
 		(instances
 			(project "RSC-LV3-LVBPS"
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/99b902d4-84f6-4664-999c-14b01031412b"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/4bbf2fff-9f66-421d-84bf-68d1dcd1e11d/df7bcb64-4221-4af7-8ca5-3f00264c9667"
